@@ -10,7 +10,7 @@ import axios from 'axios';
 // }
 export function getAllSong(){
     return function(dispatch){
-        const URL = "http://localhost/music/api/getlist";
+        const URL = "http://dev.onlinesolutions.vn/music/api/getlist";
         axios.get(URL)
         .then(response => dispatch({type : 'SET_ALL_SONGS' , songs : response.data.songs}));
     }
