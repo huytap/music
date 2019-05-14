@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\H110M\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add mongoose
+  C:\Program Files\nodejs\node.exe C:\Users\H110M\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-player
 
 PATH: 
   C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Users\H110M\AppData\Roaming\Composer\vendor\bin;C:\Users\H110M\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\H110M\AppData\Roaming\npm;C:\Users\H110M\AppData\Local\Android\Sdk\platform-tools
@@ -24,7 +24,6 @@ npm manifest:
     "private": true,
     "dependencies": {
       "axios": "^0.18.0",
-      "mongose": "^0.0.2-security",
       "react": "^16.8.6",
       "react-dom": "^16.8.6",
       "react-redux": "^7.0.3",
@@ -6312,11 +6311,6 @@ Lockfile:
     integrity sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
     dependencies:
       minimist "0.0.8"
-  
-  mongose@^0.0.2-security:
-    version "0.0.2-security"
-    resolved "https://registry.yarnpkg.com/mongose/-/mongose-0.0.2-security.tgz#34640fa153c935371993ad8c0cc1a96f35f8be9b"
-    integrity sha512-XJUBQHhC/12+hWtrcB1Ww+gkxSzbxg4VdjpNlBQGvFoyPm1bErhA+3n/IkWbGCkavFB1OSycpvpCRphPsZXgLw==
   
   move-concurrently@^1.0.1:
     version "1.0.1"

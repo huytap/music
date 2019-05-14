@@ -44,7 +44,4 @@ class Form extends Component {
     }
 }
 
-const mapStateToProps = function(state){
-    return {shouldShowForm : state.shouldShowForm}
-}
-export default connect(mapStateToProps,actioncreators)(Form);
+export default connect(null,actioncreators)(Form);
